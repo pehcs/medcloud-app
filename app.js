@@ -14,7 +14,7 @@ const db = mysql.createPool({
 
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
-
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 function middlewareValidationForm(req,res,next){
     if(req.body.nome===''){

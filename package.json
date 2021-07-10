@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "heroku-postbuild": "cd client && yarn --only=dev && yarn && yarn build"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
