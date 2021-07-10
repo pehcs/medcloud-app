@@ -65,7 +65,7 @@ app.post("/update", (req,res)=>{
     res.status(200).end()
 })
 
-app.listen(3001, ()=>{
+app.listen(3001 || process.env.PORT, ()=>{
     console.log("listening on http://localhost:3001")
 })
 
