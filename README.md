@@ -18,4 +18,4 @@
 3. Utilize dois terminais, o primeiro deve entrar no diretório client,
    então rode ```yarn start```
 
-4. Para rodar a API basta rodar ````yarn start``` na raíz
+4. Para rodar a API basta rodar ```yarn start``` na raíz
