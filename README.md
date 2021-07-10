@@ -1,10 +1,11 @@
-# Comandos para instalar o projeto
+# Sobre o projeto
 
 - Construção do APP
 
 * Utilizei react com create-react-app e a API com NodeJS e express
 * Banco de dados MySQL na AWS RDS
 
+## Para instalar o projeto
 
 - Para rodar o projeto
 
